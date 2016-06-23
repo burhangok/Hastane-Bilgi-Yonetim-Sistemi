@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="&#x15e;&#x130;FA POL&#x130;KL&#x130;N&#x130;&#x11e;&#x130; YEN&#x130; DOKTOR EKLEME">
+              <Font PropertyName="font" name="Comic Sans MS" size="14" style="0"/>
+              <Color PropertyName="color" blue="99" green="99" red="0" type="rgb"/>
+            </TitledBorder>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace min="0" pref="58" max="32767" attributes="0"/>
+                          <Component id="jButton1" min="-2" pref="401" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="doktorIdLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="adiLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="soyadiLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="tcNoLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="bransIdLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="telefonLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="mailLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="kullaniciAdiLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="kullaniciSifreLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="poliklinikIdLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="unvanLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="doktorIdField" alignment="0" max="32767" attributes="0"/>
+                              <Component id="adiField" alignment="0" max="32767" attributes="0"/>
+                              <Component id="soyadiField" alignment="0" max="32767" attributes="0"/>
+                              <Component id="tcNoField" alignment="0" max="32767" attributes="0"/>
+                              <Component id="bransIdField" alignment="0" max="32767" attributes="0"/>
+                              <Component id="telefonField" alignment="0" max="32767" attributes="0"/>
+                              <Component id="mailField" alignment="0" max="32767" attributes="0"/>
+                              <Component id="kullaniciAdiField" alignment="0" max="32767" attributes="0"/>
+                              <Component id="kullaniciSifreField" alignment="0" max="32767" attributes="0"/>
+                              <Component id="poliklinikIdField" alignment="0" max="32767" attributes="0"/>
+                              <Component id="unvanField" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="31" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace pref="39" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="doktorIdLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="doktorIdField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="adiLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="adiField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="soyadiLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="soyadiField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="tcNoLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tcNoField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="bransIdLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="bransIdField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="telefonLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="telefonField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="mailLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="mailField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="kullaniciAdiLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="kullaniciAdiField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="kullaniciSifreLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="kullaniciSifreField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="poliklinikIdLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="poliklinikIdField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="unvanLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="unvanField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="jButton1" min="-2" pref="46" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="soyadiLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="SOYADI"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="tcNoLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="TCKN"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="bransIdLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="BRANS NO"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="telefonLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="TELEFON"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="mailLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="EMA&#x130;L"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="kullaniciAdiLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="TAKMA AD"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="kullaniciSifreLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x15e;&#x130;FRE"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="poliklinikIdLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="POL&#x130;KL&#x130;N&#x130;K NO"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="unvanLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#xdc;NVAN"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="doktorIdField">
+        </Component>
+        <Component class="javax.swing.JLabel" name="doktorIdLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="PERSONEL NO"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="adiLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="ADI"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="adiField">
+        </Component>
+        <Component class="javax.swing.JTextField" name="soyadiField">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tcNoField">
+        </Component>
+        <Component class="javax.swing.JTextField" name="bransIdField">
+        </Component>
+        <Component class="javax.swing.JTextField" name="telefonField">
+        </Component>
+        <Component class="javax.swing.JTextField" name="mailField">
+        </Component>
+        <Component class="javax.swing.JTextField" name="kullaniciAdiField">
+        </Component>
+        <Component class="javax.swing.JTextField" name="kullaniciSifreField">
+        </Component>
+        <Component class="javax.swing.JTextField" name="poliklinikIdField">
+        </Component>
+        <Component class="javax.swing.JTextField" name="unvanField">
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="KAYDET"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

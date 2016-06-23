@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="1.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd">
+  <persistence-unit name="jdbc:oracle:thin:@localhost:1521:XEPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>gorevli.Employees</class>
+    <class>sistem.Poliklinikler</class>
+    <class>sistem.Poliklinikler_1</class>
+    <class>sistem.Doktorlar_1</class>
+    <class>gorevli.Hastalar</class>
+    <class>gorevli.Randevular_1</class>
+    <class>sistem.Employees</class>
+    <class>doktor.Dosyalar_1</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@localhost:1521:XE"/>
+      <property name="javax.persistence.jdbc.user" value="system"/>
+      <property name="javax.persistence.jdbc.driver" value="oracle.jdbc.OracleDriver"/>
+      <property name="javax.persistence.jdbc.password" value="bqb"/>
+    </properties>
+  </persistence-unit>
+</persistence>
